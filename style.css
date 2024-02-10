@@ -1,0 +1,112 @@
+.header {
+  padding: 150px;
+}
+.welcome {
+  font-size: 1.5rem;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Handlee", cursive;
+  font-size: 8rem;
+}
+h1 {
+  margin: 0px;
+}
+.header-p > p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.first {
+  background-color: rgb(171, 239, 248);
+}
+body {
+  margin: 0px;
+  font-family: "Merriweather Sans", sans-serif;
+}
+.me {
+  border-radius: 50%;
+  justify-content: center;
+}
+.my-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 3rem;
+  width: 100%;
+}
+h2 {
+  font-size: 2.5rem;
+  font-family: "Montserrat", sans-serif;
+  color: aqua;
+}
+.info {
+  width: 30%;
+  margin: auto;
+  text-align: center;
+}
+p {
+  line-height: 2;
+  width: 50%;
+  margin: auto;
+  text-align: left;
+}
+body {
+  text-align: center;
+}
+ul {
+  text-align: left;
+  line-height: 2;
+  width: 50%;
+  margin: auto;
+}
+.section {
+  margin-bottom: 12%;
+}
+.contact {
+  margin-top: 0;
+  background-color: #66bfbf;
+  height: 180px;
+  display: block;
+  justify-content: center;
+  font-size: small;
+}
+.fourth a {
+  color: black;
+  text-decoration: none;
+}
+.fifth {
+  margin-bottom: 0px;
+}
+.contact * {
+  color: rgb(3, 123, 139);
+  text-decoration: none;
+  text-align: center;
+  padding: 8px 0 5px;
+}
+.contact > * {
+  display: block;
+}
+.contact a:hover {
+  color: white;
+}
+.fourth a:hover {
+  color: rgb(3, 123, 139);
+  text-decoration: underline;
+}
+@media (max-width: 800px) {
+  .welcome {
+    font-size: 5rem;
+  }
+  .header-p > p {
+    font-size: 1.5rem;
+    display: block;
+    text-align: center;
+    margin: 0px;
+    width: 100%;
+  }
+}
